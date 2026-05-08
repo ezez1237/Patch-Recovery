@@ -8,6 +8,10 @@ on:
         required: true
         default: 'https://files.catbox.moe/(RECOMMENDED)'
 
+        # ADD THESE TWO LINES HERE
+env:
+  ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
